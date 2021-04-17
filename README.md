@@ -14,7 +14,7 @@ To remove your morph use this command:
 ``cmd.blockmorph``
 
 # Picture
-<img src="https://github.com/Matze997/BlockMorph/blob/master/blockmorph_icon.png">
+<img src="https://github.com/Matze997/BlockMorph/blob/main/blockmorph_icon.png">
 
 # Contact me:
 - Discord: Matze#0088
