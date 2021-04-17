@@ -34,7 +34,7 @@ class BlockMorphCommand extends Command implements PluginIdentifiableCommand {
         if(!$this->testPermission($sender)) return;
 
         $session = BlockMorphSessionManager::getInstance()->getSessionByPlayer($sender);
-        if(is_null($session) || isset($args[0])) {
+        if(is_null($session) || (isset($args[0]) && $args[0] !== "remove")) {
             if(!isset($args[0])) {
                 $sender->sendMessage("/blockmorph [ID:DAMAGE = 0]");
                 return;
