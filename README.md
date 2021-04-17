@@ -10,11 +10,11 @@ To morph yourself into a block use this command:
 To remove your morph use this command:
 ``/blockmorph remove``
 
-#Permission
+# Permission
 ``cmd.blockmorph``
 
-#Picture
-<img src="https://github.com/Matze997/BlockMorph/blob/master/blockmorph_icon.png"/>
+# Picture
+<img src="https://github.com/Matze997/BlockMorph/blob/master/blockmorph_icon.png">
 
-#Contact me:
+# Contact me:
 - Discord: Matze#0088
