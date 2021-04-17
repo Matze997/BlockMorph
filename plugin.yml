@@ -1,0 +1,4 @@
+name: BlockMorph
+version: 1.0
+api: 3.0.0
+main: matze\blockmorph\Loader
