@@ -25,7 +25,7 @@ class BlockMorphSession {
         $this->player = $player;
         $this->blockEntity = $this->createBlockMorphEntity($player, $block);
 
-        $player->addEffect(new EffectInstance(Effect::getEffect(Effect::INVISIBILITY), 999999, 1, false));
+        $player->setInvisible();
     }
 
     /**
@@ -61,6 +61,6 @@ class BlockMorphSession {
         if(!$this->blockEntity->isClosed()) {
             $this->blockEntity->flagForDespawn();
         }
-        $this->getPlayer()->removeEffect(Effect::INVISIBILITY);
+        $this->getPlayer()->setInvisible(false);
     }
 }
