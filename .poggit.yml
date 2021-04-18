@@ -5,4 +5,5 @@ branches:
 projects:
   BlockMorph:
     path: ""
+    icon: blockmorph_icon.png
 ...
