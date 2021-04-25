@@ -21,7 +21,7 @@ class BlockMorphCommand extends Command implements PluginIdentifiableCommand {
      */
     public function __construct(){
         parent::__construct("blockmorph", "BlockMorph Command");
-        $this->setPermission("cmd.blockmorph");
+        $this->setPermission("blockmorph.cmd.use");
     }
 
     /**
